@@ -4,7 +4,7 @@
     <title>Tidymodels, Virtually</title>
     <meta charset="utf-8" />
     <meta name="author" content="Alison Hill" />
-    <meta name="date" content="2020-08-27" />
+    <meta name="date" content="2021-04-24" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <meta name="description" content="Tidymodels, Virtually"/>
@@ -16,14 +16,13 @@
     <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df"/>
     <meta name="twitter:image:alt" content="The first slide features a flying machine"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="og:title" content="Tidymodels, Virtually"/>
-    <meta name="og:description" content="Tidymodels, Virtually"/>
-    <meta name="og:url" content="TBD"/>
-    <meta name="og:image" content="https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df"/>
-    <meta name="og:image:alt" content="The first slide features a flying machine"/>
-    <meta name="og:type" content="website"/>
-    <meta name="og:locale" content="en_US"/>
-    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <meta property="og:title" content="Tidymodels, Virtually"/>
+    <meta property="og:description" content="Tidymodels, Virtually"/>
+    <meta property="og:url" content="TBD"/>
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df"/>
+    <meta property="og:image:alt" content="The first slide features a flying machine"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
     <!---import JQuery-->
 
     <script
@@ -110,9 +109,11 @@ class: middle, center
 
 &lt;img style="border-radius: 50%;" src="https://github.com/apreshill.png" width="150px"/&gt;
 
-[<i class="fab  fa-github "></i> @apreshill](https://github.com/apreshill)  
-[<i class="fab  fa-twitter "></i> @apreshill](https://twitter.com/apreshill)  
-[<i class="fas  fa-link "></i> alison.rbind.io](https://alison.rbind.io)
+
+
+[r icons::fa("github")` @apreshill](https://github.com/apreshill)  
+[r icons::fa("twitter")` @apreshill](https://twitter.com/apreshill)  
+[r icons::fa("link")` alison.rbind.io](https://alison.rbind.io)
 
 
 
@@ -336,37 +337,21 @@ background-size: contain
 
 ```r
 library(tidymodels)
-## Warning: package 'tidymodels' was built under R version 3.6.2
-## ── Attaching packages ────────────────────────────────────────── tidymodels 0.1.1 ──
-## ✓ broom     0.7.0      ✓ recipes   0.1.13
-## ✓ dials     0.0.8      ✓ rsample   0.0.7 
-## ✓ dplyr     1.0.2      ✓ tibble    3.0.3 
-## ✓ ggplot2   3.3.2      ✓ tidyr     1.1.1 
-## ✓ infer     0.5.3      ✓ tune      0.1.1 
-## ✓ modeldata 0.0.2      ✓ workflows 0.1.3 
-## ✓ parsnip   0.1.3      ✓ yardstick 0.0.7 
+## ── Attaching packages ────────────────────────────────────── tidymodels 0.1.2 ──
+## ✓ broom     0.7.4      ✓ recipes   0.1.15
+## ✓ dials     0.0.9      ✓ rsample   0.0.8 
+## ✓ dplyr     1.0.2      ✓ tibble    3.0.4 
+## ✓ ggplot2   3.3.2      ✓ tidyr     1.1.2 
+## ✓ infer     0.5.4      ✓ tune      0.1.2 
+## ✓ modeldata 0.1.0      ✓ workflows 0.2.1 
+## ✓ parsnip   0.1.5      ✓ yardstick 0.0.7 
 ## ✓ purrr     0.3.4
-## Warning: package 'broom' was built under R version 3.6.2
-## Warning: package 'dials' was built under R version 3.6.2
-## Warning: package 'scales' was built under R version 3.6.2
-## Warning: package 'dplyr' was built under R version 3.6.2
-## Warning: package 'ggplot2' was built under R version 3.6.2
-## Warning: package 'infer' was built under R version 3.6.2
-## Warning: package 'modeldata' was built under R version 3.6.2
-## Warning: package 'parsnip' was built under R version 3.6.2
-## Warning: package 'purrr' was built under R version 3.6.2
-## Warning: package 'recipes' was built under R version 3.6.2
-## Warning: package 'rsample' was built under R version 3.6.2
-## Warning: package 'tibble' was built under R version 3.6.2
-## Warning: package 'tidyr' was built under R version 3.6.2
-## Warning: package 'tune' was built under R version 3.6.2
-## Warning: package 'workflows' was built under R version 3.6.2
-## Warning: package 'yardstick' was built under R version 3.6.2
-## ── Conflicts ───────────────────────────────────────────── tidymodels_conflicts() ──
+## ── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──
 ## x purrr::discard() masks scales::discard()
 ## x dplyr::filter()  masks stats::filter()
 ## x dplyr::lag()     masks stats::lag()
 ## x recipes::step()  masks stats::step()
+#devtools::install_github("hadley/emo")
 ```
 
 

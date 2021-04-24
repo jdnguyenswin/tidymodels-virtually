@@ -1,8 +1,8 @@
 ---
-title: "Build A Model"
-subtitle: "Tidymodels, Virtually"
+title: "Joins in the Tidyverse"
+subtitle: "MiR Tidyverse Trainer Prep"
 session: 01
-author: Alison Hill
+author: Jeremy Nguyen
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -74,7 +74,7 @@ class: title-slide, center, bottom
 ---
 class: center, middle, inverse
 
-# What is Machine Learning?
+# Why Learn Joins?
 
 ???
 

@@ -1,5 +1,5 @@
 ---
-title: "Tidymodels, Virtually"
+title: "Joins in the Tidyverse"
 author:
 - name: Alison Hill, Ph.D.
   url: https://alison.rbind.io
