@@ -98,9 +98,13 @@ class: middle, center
 
 <img style="border-radius: 50%;" src="https://github.com/apreshill.png" width="150px"/>
 
-[`r icon::fa("github")` @apreshill](https://github.com/apreshill)  
-[`r icon::fa("twitter")` @apreshill](https://twitter.com/apreshill)  
-[`r icon::fa("link")` alison.rbind.io](https://alison.rbind.io)
+```{r include=FALSE}
+#devtools::install_github("ropenscilabs/icon")
+```
+
+[r icons::fa("github")` @apreshill](https://github.com/apreshill)  
+[r icons::fa("twitter")` @apreshill](https://twitter.com/apreshill)  
+[r icons::fa("link")` alison.rbind.io](https://alison.rbind.io)
 
 
 
@@ -325,6 +329,7 @@ background-size: contain
 
 ```{r}
 library(tidymodels)
+#devtools::install_github("hadley/emo")
 ```
 
 
